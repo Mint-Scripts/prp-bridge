@@ -14,9 +14,10 @@ BridgeConfig.Debug = true
         - qb-core
         - es_extended
         - nd_core
+        - mythic
 ]]
 ---@type AvailableFrameworks
-BridgeConfig.FrameWork = "qbx_core"
+BridgeConfig.FrameWork = "mythic"
 
 --[[
     Available inventories
@@ -38,9 +39,10 @@ BridgeConfig.Inventory = "ox_inventory"
         - 17mov_phone
         - gksphone
         - meteo-phone
+        - mythic-phone
 ]]
 ---@type AvailablePhones
-BridgeConfig.Phone = "lb-phone"
+BridgeConfig.Phone = "mythic-phone"
 
 --[[
     Available targets
@@ -109,7 +111,7 @@ BridgeConfig.VehicleKeys = "qbx_vehiclekeys"
         - Renewed-Fuel
 ]]
 ---@type AvailableVehicleFuel
-BridgeConfig.VehicleFuel = "ox_fuel"
+BridgeConfig.VehicleFuel = "ox_fuel" -- should just work globally, no need to change due to using entity.getfuel
 
 ---@type AvailableMinigames
 BridgeConfig.Minigames = "prp-minigames"
